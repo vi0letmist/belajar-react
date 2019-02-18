@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg'
 import './App.css'
 
-class Product extends React.Component{
+class Iklan extends React.Component{
     render(){
         return (
             <div>
@@ -13,4 +13,4 @@ class Product extends React.Component{
         );
     }
 }
-export default Product;
+export default Iklan;

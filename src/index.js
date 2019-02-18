@@ -52,8 +52,7 @@ class Product extends React.Component{
         return (<div><h1>{this.props.judul}</h1><h3>Harga : {this.props.harga}</h3></div>);
     }
 }*/
-const element = <Product judul = "Koleksi Avengers menggunakan class component"
-harga="100.000 menggunakan class component"/>
+const element = <App/>
 
 ReactDOM.render(element, document.getElementById('root'));
 
